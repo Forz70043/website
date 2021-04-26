@@ -4,6 +4,11 @@
   --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
+
+
+  --second-red: #8B2635;
+  --second-blue: #2E3532;
+  --second-gray: #E0E2DB;
 }
 
 /* Base reset */
@@ -104,12 +109,14 @@ img {
   display: block;
   width: 100%;
 }
-
+img#logo {
+  height: 65px;
+}
 /* nav */
 
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
